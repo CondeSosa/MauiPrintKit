@@ -10,7 +10,7 @@ public interface IPrintingService
 {
     public string PrinterName { get; }
     void SetPrinter(string printerName);
-    Task PrintImage(byte[] imageArray);
+    Task PrintImageAsync(byte[] imageArray);
   
     
 }

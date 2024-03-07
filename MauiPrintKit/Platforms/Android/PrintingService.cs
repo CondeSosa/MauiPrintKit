@@ -9,7 +9,7 @@ namespace MauiPrintKit;
 public  partial  class PrintingService : IPrintingService
 {
 
-    public  async Task PrintImage(byte[] imageArray)
+    public  async Task PrintImageAsync(byte[] imageArray)
     {
         if(imageArray == null)
         {

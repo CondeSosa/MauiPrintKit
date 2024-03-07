@@ -4,7 +4,7 @@ namespace MauiPrintKit;
 
 public partial class PrintingService : IPrintingService
 {
-    public Task PrintImage(byte[] imageArray)
+    public Task PrintImageAsync(byte[] imageArray)
     {
         throw new NotImplementedException();
     }
